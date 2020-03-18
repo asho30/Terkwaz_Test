@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-18T01:41:00Z" name="Terkwaz App Automation Test Suite" finished-at="2020-03-18T01:41:49Z" duration-ms="49390">
+    <groups>
+    </groups>
+    <test started-at="2020-03-18T01:41:00Z" name="Terkwaz Automation Test Framework" finished-at="2020-03-18T01:41:49Z" duration-ms="49390">
+      <class name="com.terkwaz.testcases.configTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.terkwaz.testcases.configTest@35fc6dc4]" started-at="2020-03-18T01:41:00Z" name="setExtent" finished-at="2020-03-18T01:41:00Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.terkwaz.testcases.configTest@35fc6dc4]" started-at="2020-03-18T01:41:49Z" name="endReport" finished-at="2020-03-18T01:41:50Z" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.terkwaz.testcases.configTest -->
+      <class name="com.terkwaz.testcases.Google_Test">
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.terkwaz.testcases.Google_Test@7fe8ea47]" started-at="2020-03-18T01:41:01Z" name="start" finished-at="2020-03-18T01:41:13Z" duration-ms="11775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.terkwaz.testcases.Google_Test.TC1_GoogleSearch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC1_GoogleSearch()[pri:1, instance:com.terkwaz.testcases.Google_Test@7fe8ea47]" started-at="2020-03-18T01:41:13Z" name="TC1_GoogleSearch" finished-at="2020-03-18T01:41:15Z" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_GoogleSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.terkwaz.testcases.Google_Test@7fe8ea47]" started-at="2020-03-18T01:41:15Z" name="tearDown" finished-at="2020-03-18T01:41:16Z" duration-ms="1058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC1_GoogleSearch status=SUCCESS method=Google_Test.TC1_GoogleSearch()[pri:1, instance:com.terkwaz.testcases.Google_Test@7fe8ea47] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.terkwaz.testcases.Google_Test -->
+      <class name="com.terkwaz.testcases.Api_Test">
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.terkwaz.testcases.Api_Test@731f8236]" started-at="2020-03-18T01:41:00Z" name="start" finished-at="2020-03-18T01:41:00Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.terkwaz.testcases.Api_Test.FactsAPITest() throws org.apache.http.client.ClientProtocolException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="FactsAPITest()[pri:0, instance:com.terkwaz.testcases.Api_Test@731f8236]" started-at="2020-03-18T01:41:00Z" name="FactsAPITest" finished-at="2020-03-18T01:41:01Z" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FactsAPITest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.terkwaz.testcases.Api_Test@731f8236]" started-at="2020-03-18T01:41:01Z" name="tearDown" finished-at="2020-03-18T01:41:01Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FactsAPITest status=SUCCESS method=Api_Test.FactsAPITest()[pri:0, instance:com.terkwaz.testcases.Api_Test@731f8236] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.terkwaz.testcases.Api_Test -->
+      <class name="com.terkwaz.testcases.HerokuApp_Test">
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.terkwaz.testcases.HerokuApp_Test@226a82c4]" started-at="2020-03-18T01:41:16Z" name="start" finished-at="2020-03-18T01:41:28Z" duration-ms="12051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.terkwaz.testcases.HerokuApp_Test.TC1_UploadFile() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC1_UploadFile()[pri:1, instance:com.terkwaz.testcases.HerokuApp_Test@226a82c4]" started-at="2020-03-18T01:41:28Z" name="TC1_UploadFile" finished-at="2020-03-18T01:41:29Z" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_UploadFile -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.terkwaz.testcases.HerokuApp_Test@226a82c4]" started-at="2020-03-18T01:41:29Z" name="tearDown" finished-at="2020-03-18T01:41:30Z" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC1_UploadFile status=SUCCESS method=HerokuApp_Test.TC1_UploadFile()[pri:1, instance:com.terkwaz.testcases.HerokuApp_Test@226a82c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="start(java.lang.reflect.Method)[pri:0, instance:com.terkwaz.testcases.HerokuApp_Test@226a82c4]" started-at="2020-03-18T01:41:30Z" name="start" finished-at="2020-03-18T01:41:42Z" duration-ms="11968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.terkwaz.testcases.HerokuApp_Test.TC2_DynamicLoading() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="TC2_DynamicLoading()[pri:2, instance:com.terkwaz.testcases.HerokuApp_Test@226a82c4]" started-at="2020-03-18T01:41:42Z" name="TC2_DynamicLoading" finished-at="2020-03-18T01:41:48Z" duration-ms="6066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_DynamicLoading -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.terkwaz.testcases.HerokuApp_Test@226a82c4]" started-at="2020-03-18T01:41:48Z" name="tearDown" finished-at="2020-03-18T01:41:49Z" duration-ms="1040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC2_DynamicLoading status=SUCCESS method=HerokuApp_Test.TC2_DynamicLoading()[pri:2, instance:com.terkwaz.testcases.HerokuApp_Test@226a82c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.terkwaz.testcases.HerokuApp_Test -->
+    </test> <!-- Terkwaz Automation Test Framework -->
+  </suite> <!-- Terkwaz App Automation Test Suite -->
+</testng-results>

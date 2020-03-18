@@ -1,0 +1,4 @@
+com\terkwaz\testcases\configTest.class
+com\terkwaz\testcases\Google_Test.class
+com\terkwaz\testcases\Api_Test.class
+com\terkwaz\testcases\HerokuApp_Test.class

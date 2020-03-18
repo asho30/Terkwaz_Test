@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Terkwaz App Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.terkwaz.retryAnalyzer.RetryTransformer" />
+	</listeners>
+
+	<test thread-count="5" name="Terkwaz Automation Test Framework">
+		<classes>
+
+			<class name="com.terkwaz.testcases.configTest" />
+			<class name="com.terkwaz.testcases.Google_Test" />
+			<class name="com.terkwaz.testcases.HerokuApp_Test" />
+			<class name="com.terkwaz.testcases.Api_Test" />
+			
+		
+		</classes>
+	</test>
+</suite><!-- Suite -->
